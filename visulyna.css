@@ -1,33 +1,27 @@
-/* --- Global Styles --- */
-* {
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-body {
   font-family: "Poppins", sans-serif;
   background-color: #fff;
   color: #333;
 }
 
-/* --- Header --- */
+
 header {
-  display: flex;
-  justify-content: space-between; /* يفصل اللوجو على البوتونات */
-  align-items: center; /* يوسّط كلش عمودي */
-  gap: 30px; /* يبعد البوتونات على بعضهم */
-  padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; /* يفصل اللوجو على البوتونات */
+    align-items: center; /* يوسّط كلش عمودي */
+    padding: 10px 20px;
 }
 
+
+
 .logo {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
   color: #6C63FF;
   display: flex;
 }
-
-/* --- Navigation --- */
 nav {
   position: sticky;
   top: 0;
@@ -38,38 +32,28 @@ nav {
   z-index: 1000;
   padding: 15px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  
 }
 
 nav a:hover {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
+  color: #8a2be2;
+  transform: scale(1.05);
+
   background: linear-gradient(135deg, #6C63FF 0%, #b3a5ff 100%);
   color: white;
-  box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
-  transform: scale(1.05);
-}
-
-/* --- Hero Section --- */
-.hero {
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background: linear-gradient(135deg, #6C63FF, #b3a5ff);
-  color: white;
-  padding: 0 20px;
+  
 }
 
 .hero h1 {
-  font-size: 50px;
-  font-weight: 700;
+  font-size: 40px;
   margin-bottom: 15px;
 }
 
 .hero p {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 30px;
-  max-width: 600px;
 }
 
 .hero button {
@@ -87,8 +71,7 @@ nav a:hover {
   background-color: #6C63FF;
   color: white;
 }
-
-/* --- Services Page --- */
+/* --- SERVICES PAGE --- */
 .services {
   padding: 80px 40px;
   text-align: center;
@@ -107,6 +90,10 @@ nav a:hover {
   flex-wrap: wrap;
   gap: 40px;
 }
+
+
+
+
 
 .service-card {
   background-color: #fff;
@@ -136,7 +123,7 @@ nav a:hover {
   font-size: 15px;
 }
 
-/* --- Footer --- */
+
 footer {
   backdrop-filter: blur(10px);
   background: rgba(255, 255, 255, 0.25);
@@ -152,11 +139,11 @@ footer {
   transition: 0.3s ease;
 }
 
+
 footer:hover {
   background: rgba(255, 255, 255, 0.4);
 }
-
-/* --- Modern Buttons --- */
+/* ----- Buttons Modern Accueil ----- */
 .btn {
   display: inline-block;
   padding: 12px 25px;
@@ -175,3 +162,57 @@ footer:hover {
   box-shadow: 0 10px 25px rgba(120, 115, 245, 0.5);
   background: linear-gradient(135deg, #7873f5, #ff6ec4);
 }
+/* ---- HERO SECTION FIX ---- */
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background: linear-gradient(135deg, #6C63FF, #b3a5ff);
+  color: white;
+
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+/* ---- HERO SECTION FIX ---- */
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background: linear-gradient(135deg, #6C63FF, #b3a5ff);
+  color: white;
+
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+
