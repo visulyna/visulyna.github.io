@@ -214,5 +214,46 @@ footer:hover {
   margin-bottom: 30px;
   max-width: 600px;
 }
+/* ---------- RESPONSIVE VERSION (TELEPHONE) ---------- */
+
+@media (max-width: 768px) {
+
+  body {
+    padding: 0 10px;
+  }
+
+  /* العنوان */
+  h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  /* بار-نافيغيشن */
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* الكاردات (Equipe, Services…) */
+  .card,
+  .member-card {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  /* الصور */
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* الكونتينر */
+  .team-container,
+  .services-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
 
 
