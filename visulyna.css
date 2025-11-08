@@ -10,7 +10,7 @@ body {
 header {
     display: flex;
     justify-content: space-between; /* يفصل اللوجو على البوتونات */
-   gap: 50px; /* يبعد البوتونات على بعضهم */
+   gap: 70px; /* يبعد البوتونات على بعضهم */
 }
     align-items: center; /* يوسّط كلش عمودي */
   
@@ -257,5 +257,6 @@ footer:hover {
     gap: 15px;
   }
 }
+
 
 
