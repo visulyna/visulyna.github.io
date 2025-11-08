@@ -58,21 +58,18 @@ nav a:hover {
   margin-bottom: 30px;
 }
 
-.hero button {
-  background-color: white;
-  color: #6C63FF;
-  border: none;
-  padding: 12px 25px;
-  border-radius: 25px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.3s;
+.btn {
+  padding: 10px 22px;
+  background: linear-gradient(135deg, #ff6ec4, #7873f5);
+  color: #fff;
+  border-radius: 50px;
+  transition: all 0.4s ease;
 }
+.btn:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(120, 115, 245, 0.5);
+} 
 
-.hero button:hover {
-  background-color: #6C63FF;
-  color: white;
-}
 /* --- SERVICES PAGE --- */
 .services {
   padding: 80px 40px;
@@ -216,6 +213,7 @@ footer:hover {
   margin-bottom: 30px;
   max-width: 600px;
 }
+
 
 
 
