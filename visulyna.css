@@ -11,8 +11,6 @@ header {
     display: flex;
     justify-content: space-between; /* يفصل اللوجو على البوتونات */
     align-items: center; /* يوسّط كلش عمودي */
-   gap: 30px; /* يبعد البوتونات على بعضهم */
-
     padding: 10px 20px;
 }
 
@@ -72,7 +70,7 @@ nav a:hover {
 .hero button:hover {
   background-color: #6C63FF;
   color: white;
-
+}
 /* --- SERVICES PAGE --- */
 .services {
   padding: 80px 40px;
@@ -216,8 +214,6 @@ footer:hover {
   margin-bottom: 30px;
   max-width: 600px;
 }
-
-
 
 
 
