@@ -37,14 +37,16 @@ nav {
 
 nav a:hover {
   background: rgba(255, 255, 255, 0.4);
-  box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
-  color: #8a2be2;
+  color: #6C63FF;
   transform: scale(1.05);
-
-  background: linear-gradient(135deg, #6C63FF 0%, #b3a5ff 100%);
-  color: white;
-  
 }
+.hero-btn:hover,
+.btn:hover {
+  background: #6C63FF;
+  color: white;
+  transform: translateY(-5px) scale(1.05);
+}
+
 
 .hero h1 {
   font-size: 40px;
@@ -214,6 +216,7 @@ footer:hover {
   margin-bottom: 30px;
   max-width: 600px;
 }
+
 
 
 
