@@ -24,6 +24,7 @@ logo {
   color: #6C63FF;
   display: flex;
 }
+
 nav {
   position: sticky;
   top: 0;
@@ -216,6 +217,7 @@ footer:hover {
   margin-bottom: 30px;
   max-width: 600px;
 }
+
 
 
 
