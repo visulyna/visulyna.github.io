@@ -11,6 +11,8 @@ header {
     display: flex;
     justify-content: space-between; /* يفصل اللوجو على البوتونات */
     align-items: center; /* يوسّط كلش عمودي */
+   gap: 30px; /* يبعد البوتونات على بعضهم */
+
     padding: 10px 20px;
 }
 
@@ -214,6 +216,7 @@ footer:hover {
   margin-bottom: 30px;
   max-width: 600px;
 }
+
 
 
 
