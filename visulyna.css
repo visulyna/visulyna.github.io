@@ -10,6 +10,8 @@ body {
 header {
     display: flex;
     justify-content: space-between; /* يفصل اللوجو على البوتونات */
+   gap: 30px; /* يبعد البوتونات على بعضهم */
+}
     align-items: center; /* يوسّط كلش عمودي */
     padding: 10px 20px;
 }
@@ -214,6 +216,7 @@ footer:hover {
   margin-bottom: 30px;
   max-width: 600px;
 }
+
 
 
 
